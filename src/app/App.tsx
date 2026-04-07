@@ -1,4 +1,4 @@
-import logo from "figma:asset/3a69eea8c4adabffc47d304e0bdbffa57443134d.png";
+import logo from "../assets/3a69eea8c4adabffc47d304e0bdbffa57443134d.png";
 
 export default function App() {
   return (
