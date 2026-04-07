@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    max-width: 100%;
+}
+
+.logo {
+    width: 16rem;
+    height: auto;
+    max-width: 100%;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #0f172a;
+    text-align: center;
+    font-weight: 600;
+}
+
+a {
+    font-size: 1.125rem;
+    color: #475569;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0f172a;
+}
+
+/* Responsive design for tablet and up */
+@media (min-width: 768px) {
+    .logo {
+        width: 20rem;
+    }
+    
+    h1 {
+        font-size: 2.25rem;
+    }
+    
+    a {
+        font-size: 1.25rem;
+    }
+}
